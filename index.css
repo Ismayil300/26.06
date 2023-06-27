@@ -1,0 +1,126 @@
+main::before {
+  content: "";
+  display: block;
+  margin-left: 20vw;
+}
+
+main {
+  display: flex;
+}
+
+.navbar-new {
+  position: fixed;
+  height: 100vh;
+  width: 20vw;
+  background-color: red;
+  opacity: 0.8;
+  color: white;
+  padding: 50px;
+}
+.navbar2 {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+}
+a:hover {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+.color {
+  margin-top: 80px;
+}
+.image-block {
+  padding: 0px 6px 0px 6px;
+  margin-top: 20px;
+}
+.img-card {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  opacity: 0.8;
+}
+.img-card-item {
+  width: 100%;
+  opacity: 0.8;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-top: 10px;
+}
+.title {
+  font-size: 64px;
+  display: inline-block;
+}
+.subtitle {
+  font-size: 48px;
+  color: #f44336 !important;
+}
+.hrstyle {
+  width: 65px;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.content {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.card-content {
+  background-color: #f1f1f1 !important;
+}
+.profession {
+  opacity: 0.6;
+}
+.header-list1 {
+  background-color: #616161;
+  color: white;
+  padding: 35px 0px 35px 0px;
+  font-size: 24px;
+}
+.header-list2 {
+  color: #fff;
+  background-color: #f44336;
+  padding: 35px 0px 35px 0px;
+  font-size: 24px;
+}
+.list-child {
+  padding: 17px 0px 17px 0px;
+  background-color: #f1f1f1 !important;
+}
+.button-custom {
+  padding: 10px 40px 10px 40px;
+}
+.button-customs {
+  padding: 10px 40px 10px 40px;
+  background-color: #f44336;
+  color: white;
+}
+.input-item {
+  margin-top: 15px;
+}
+.lg-button {
+  background-color: #f44336;
+  color: white;
+  border-color: #f44336;
+  margin-top: 30px;
+  padding: 12px 0px 12px 0px;
+}
+.w3-right {
+  float: center !important;
+  margin-top: 60px;
+  margin-right: 50px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #030 !important;
+}
